@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import Slider from './components/slider';
 import Cards from './components/cards';
 import About from './components/aboutus';
+import Contact from './components/contactus'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Slider/>
       <About/>
       <Cards/>
+      <Contact/>
     </div>
   );
 }

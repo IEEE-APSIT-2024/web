@@ -72,6 +72,7 @@ const CouncilCardGrid = () => {
 
   return (
     <div className="container">
+      <section id="cards"></section>
       <h1 className="text-center">Council Members</h1>
       <Row>
         {councils.map((council, index) => (

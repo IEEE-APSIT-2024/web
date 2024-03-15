@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Container, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import logo from '../img/logo.jpg';
+import { Button, Container, Form, Nav, Navbar } from 'react-bootstrap';
+import logo from '../img/logo.png';
 import '../Styles/nav.css'
 
 function NavScrollExample() {
@@ -8,7 +8,7 @@ function NavScrollExample() {
     <Navbar expand="lg" className="bg-body-tertiary sticky-top"> {/* Add 'sticky-top' class */}
       <Container fluid>
         <Navbar.Brand href="#">
-          <img className="logo" src={logo} alt="" height="40px" width="130px" />
+          <img className="logo" src={logo} alt="" height="40px" width="130px" href="#home" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -17,18 +17,12 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About Us</Nav.Link>
-            <NavDropdown title="Dropdown" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About Us</Nav.Link>
+            <Nav.Link href="#cards">Council Members</Nav.Link>
+            <Nav.Link href="#contact">Contact Us</Nav.Link>
+
+            
           </Nav>
           <Form className="d-flex">
             <Form.Control
