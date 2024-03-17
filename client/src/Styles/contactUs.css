@@ -1,0 +1,82 @@
+/* contactUs.css */
+
+/* Style for the whole Contact Us section */
+.contact-us-section {
+    padding: 50px 0; /* Add padding as needed */
+  }
+  
+  /* Style for the contact image */
+  .contact-image {
+    width: 100%;
+    height: 400px;
+  }
+  
+  /* Style for the contact form */
+  .contact-form {
+    background-color: #f9f9f9; /* Add background color for the form */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Style for the contact form heading */
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form elements */
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the submit button */
+  .contact-form button {
+    background-color: #007bff; /* Add your preferred button color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for contact details section */
+  .contact-details {
+    margin-top: 30px; /* Add margin as needed */
+  }
+  
+  /* Style for contact information */
+  .contact-info {
+    background-color: #f9f9f9; /* Add background color for the contact info */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Style for contact information heading */
+  .contact-info h3 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for social media icons */
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  /* Style for individual social media icons */
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 10px; /* Add spacing between icons */
+    color: #333; /* Adjust icon color as needed */
+  }
+
+  /* contactUs.css */
+
+/* Style for the dashed input box */
+.dashed-input {
+    border: none;
+    border-bottom: 1px dashed #ccc; /* Change the color as needed */
+    border-radius: 0; /* Remove border-radius if not needed */
+    background-color: transparent; /* Make the background transparent */
+    box-shadow: none; /* Remove any box-shadow */
+    padding: 5px 0; /* Adjust padding as needed */
+    margin-bottom: 15px; /* Add margin-bottom for spacing */
+  }
+  

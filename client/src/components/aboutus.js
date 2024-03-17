@@ -3,7 +3,7 @@ import v from '../img/v.svg'
 import '../Styles/aboutUs.css'
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import bg from '../img/bg7.jpg'
+import bg from '../img/bg4.jpg'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,6 +15,7 @@ const AboutSection = () => {
   return (
     <div className="about-section" style={{ backgroundImage: `url(${bg})` }}>
       <Container>
+      <section id="about"></section>
         <Row>
           <Col>
             <div className="about-text">
