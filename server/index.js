@@ -1,18 +1,9 @@
 import mongoose from 'mongoose';
+import express from 'express';
+const app = express();
+const CONNECTION_URL = 'mongodb://localhost:27017/IEEE'
+const PORT = 5000
 
-const connection = async()=>{
-    try{
-        const dbName = '';
-        const conn=await mongoose.connect(" ",
-       { useNewUrlParser : true,
-        useUnifiedTopology : true,
-        useCreateIndex : true,
-       }
-    );
-    console.log("Connected to MongoDB");
-} catch(error){
-    console.error("Error connecting to MongoDB");
-    process.exit(1)
-}
-
-}
+mongoose.connect(CONNECTION_URL)
+    .then(() => app.listen(PORT, () => console.log('Database connected')))
+    .catch((error) => console.log(error.message));
