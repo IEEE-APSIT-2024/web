@@ -112,7 +112,7 @@ function CreateUser() {
 
               <br></br>
               <div id="fg">
-                <Link to="/">Login</Link>
+                <Link to="/login">Login</Link>
               </div>
               <div>
                 <button type="submit">Register</button>

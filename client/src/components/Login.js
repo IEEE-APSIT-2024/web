@@ -33,8 +33,7 @@ function Login() {
   };
 
   return (
-    <>
-      <div className="App">
+      <div className="app">
         <div className="registration-container">
           <h1>IEEE APSIT</h1>
           <div className="registration-form">
@@ -63,7 +62,7 @@ function Login() {
               </div>
               <br></br>
               <div id="fg">
-                <Link to="/">Register Here</Link>
+                <Link to="/register">Register Here</Link>
               </div>
               <div>
                 <button type="login">Login</button>
@@ -72,7 +71,6 @@ function Login() {
           </div>
         </div>
       </div>
-    </>
   );
 }
 
