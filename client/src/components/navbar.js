@@ -24,7 +24,10 @@ function NavScrollExample() {
 
             
           </Nav>
-          <Button variant="primary">Sign Up</Button>
+
+          <Button variant="primary">
+          <a href="/login"> Sign Up</a>
+          </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
